@@ -1,0 +1,100 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to login",
+    "elements": [
+      {
+        "id": "login-on-the-web;user-failed-to-login-on-the-website",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User failed to login on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse dashboard page 1",
+            "result": {
+              "status": "passed",
+              "duration": 1825500
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click button masuk 1",
+            "result": {
+              "status": "passed",
+              "duration": 560300
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email or phone number field 1",
+            "result": {
+              "status": "passed",
+              "duration": 513800
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click login 1",
+            "result": {
+              "status": "passed",
+              "duration": 644300
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see notification that account is not registered",
+            "result": {
+              "status": "passed",
+              "duration": 683400
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 25005332100
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-web",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on the web",
+    "tags": [],
+    "uri": "D:\\SQA\\project-indihome\\features\\login_invalid.feature"
+  }
+]

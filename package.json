@@ -1,0 +1,28 @@
+{
+  "name": "project-indihome",
+  "version": "1.0.0",
+  "description": "Test Indihome Functionalities",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.44.0",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions",
+    "test-availability-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/availability_valid.feature",
+    "test-availability-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/availability_invalid.feature",
+    "test-login-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_valid.feature",
+    "test-login-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_invalid.feature",
+    "test-register": "node ./node_modules/selenium-cucumber-js/index.js -f features/register.feature"
+  },
+  "author": "Bayusandya",
+  "license": "Telkom University"
+}
