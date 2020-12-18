@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="login-on-the-web;user-failed-to-login-on-the-website" tests="5" failures="0" skipped="0">
+    <testsuite name="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" tests="11" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:\SQA\project-indihome\features\login_invalid.feature">
+            <property name="URI" value="D:\SQA\project-indihome\features\register_invalid.feature">
             </property>
         </properties>
-        <testcase name="Given user browse dashboard page 1" classname="login-on-the-web;user-failed-to-login-on-the-website" time="0.0018255">
+        <testcase name="Given User browse Page Dashboard 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0042069">
         </testcase>
-        <testcase name="And user click button masuk 1" classname="login-on-the-web;user-failed-to-login-on-the-website" time="0.0005603">
+        <testcase name="And Click button “Daftar Akun 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0009503">
         </testcase>
-        <testcase name="And user fill email or phone number field 1" classname="login-on-the-web;user-failed-to-login-on-the-website" time="0.0005138">
+        <testcase name="And fill email field 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0004864">
         </testcase>
-        <testcase name="When user click login 1" classname="login-on-the-web;user-failed-to-login-on-the-website" time="0.0006443">
+        <testcase name="And fill Nama field 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0004056">
         </testcase>
-        <testcase name="Then user can see notification that account is not registered" classname="login-on-the-web;user-failed-to-login-on-the-website" time="0.0006834">
+        <testcase name="And fill Nomor Hp 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0005266">
+        </testcase>
+        <testcase name="And choose jenis kelamin 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0004228">
+        </testcase>
+        <testcase name="And fill Password field 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0005113">
+        </testcase>
+        <testcase name="And fill Konfirmasi Password field 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.000392">
+        </testcase>
+        <testcase name="And Click saya setuju dengan syarat dan ketentuan 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0004378">
+        </testcase>
+        <testcase name="When Click button “Register” 1" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0006551">
+        </testcase>
+        <testcase name="Then user can see alert message" classname="register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered" time="0.0005269">
         </testcase>
     </testsuite>
 </testsuites>

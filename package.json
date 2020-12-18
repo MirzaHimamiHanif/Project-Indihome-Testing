@@ -21,7 +21,8 @@
     "test-availability-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/availability_invalid.feature",
     "test-login-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_valid.feature",
     "test-login-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_invalid.feature",
-    "test-register": "node ./node_modules/selenium-cucumber-js/index.js -f features/register.feature"
+    "test-register-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_valid.feature",
+    "test-register-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_invalid.feature"
   },
   "author": "Bayusandya",
   "license": "Telkom University"

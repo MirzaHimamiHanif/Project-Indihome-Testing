@@ -1,76 +1,154 @@
 [
   {
-    "description": "    As a user\n    I want to be able to login",
+    "description": "    As a user\n    I want to be able to register",
     "elements": [
       {
-        "id": "login-on-the-web;user-failed-to-login-on-the-website",
+        "id": "register-on-the-web;the-user-has-failed-to-register-because-account-has-been-registered",
         "keyword": "Scenario",
         "line": 7,
-        "name": "User failed to login on the website",
+        "name": "The user has failed to register because account has been registered",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse dashboard page 1",
+            "name": "User browse Page Dashboard 1",
             "result": {
               "status": "passed",
-              "duration": 1825500
+              "duration": 4206900
             },
             "line": 8,
             "match": {
-              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:2"
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:2"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click button masuk 1",
+            "name": "Click button “Daftar Akun 1",
             "result": {
               "status": "passed",
-              "duration": 560300
+              "duration": 950300
             },
             "line": 9,
             "match": {
-              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:6"
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill email or phone number field 1",
+            "name": "fill email field 1",
             "result": {
               "status": "passed",
-              "duration": 513800
+              "duration": 486400
             },
             "line": 10,
             "match": {
-              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:12"
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nama field 1",
+            "result": {
+              "status": "passed",
+              "duration": 405600
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nomor Hp 1",
+            "result": {
+              "status": "passed",
+              "duration": 526600
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "choose jenis kelamin 1",
+            "result": {
+              "status": "passed",
+              "duration": 422800
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Password field 1",
+            "result": {
+              "status": "passed",
+              "duration": 511300
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Konfirmasi Password field 1",
+            "result": {
+              "status": "passed",
+              "duration": 392000
+            },
+            "line": 15,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Click saya setuju dengan syarat dan ketentuan 1",
+            "result": {
+              "status": "passed",
+              "duration": 437800
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:48"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click login 1",
+            "name": "Click button “Register” 1",
             "result": {
               "status": "passed",
-              "duration": 644300
+              "duration": 655100
             },
-            "line": 11,
+            "line": 17,
             "match": {
-              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:18"
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:54"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "user can see notification that account is not registered",
+            "name": "user can see alert message",
             "result": {
               "status": "passed",
-              "duration": 683400
+              "duration": 526900
             },
-            "line": 12,
+            "line": 18,
             "match": {
-              "location": "D:\\SQA\\project-indihome\\step-definitions\\login_invalid-steps.js:24"
+              "location": "D:\\SQA\\project-indihome\\step-definitions\\register_invalid-steps.js:60"
             }
           },
           {
@@ -78,7 +156,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 25005332100
+              "duration": 25950252900
             },
             "hidden": true,
             "match": {
@@ -90,11 +168,11 @@
         "type": "scenario"
       }
     ],
-    "id": "login-on-the-web",
+    "id": "register-on-the-web",
     "keyword": "Feature",
     "line": 3,
-    "name": "Login on the web",
+    "name": "Register on the web",
     "tags": [],
-    "uri": "D:\\SQA\\project-indihome\\features\\login_invalid.feature"
+    "uri": "D:\\SQA\\project-indihome\\features\\register_invalid.feature"
   }
 ]
