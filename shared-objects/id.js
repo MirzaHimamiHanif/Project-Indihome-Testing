@@ -4,7 +4,8 @@ module.exports = {
     emailnew : '4315dsafasdf@gmail.com',
     name : '1234',
     telp : 12334512,
+    telpInvalid : "12334512AA",
     pass : '12345678Aoq',
-    availableAddress : 'Jl. Kawi 23 Ngoro Jombang',
+    availableAddress : 'aaaaa',
     unavailableAddress : 'Selat Sunda'
 }

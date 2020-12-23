@@ -13,7 +13,15 @@ module.exports = {
         clickAgreement: by.xpath("//label[@for='checkbox']"),
         clickRegister: by.xpath("//button[normalize-space()='Register']"),
         checkVerify: by.xpath("//h1[normalize-space()='Verifikasi Akun']"),
-        checkAlert: by.xpath("//h3[normalize-space()='Gagal']")
+        checkAlert: by.xpath("//h3[normalize-space()='Gagal']"),
+        checkEmailEmpty: by.xpath("//b[contains(text(),'Email tidak boleh kosong')]"),
+        checkNameEmpty: by.xpath("//b[contains(text(),'Nama tidak boleh kosong')]"),
+        checkTeleEmpty: by.xpath("//b[contains(text(),'No. Handphone tidak boleh kosong')]"),
+        checkKonfEmpty: by.xpath("//small[normalize-space()='Maaf konfirmasi password tidak sama.']"),
+        checkAgreeEmpty: by.xpath("//p[normalize-space()='Harap centang syarat dan ketentuan terlebih dahulu']"),
+        checkEmailFormat: by.xpath("//p[normalize-space()='Format E-mail Salah [10]']"),
+        checkTeleFormat: by.xpath("//p[normalize-space()='Msisdn Harus Angka [10]']"),
+        
     },
 
     performClickDaftarAkun: async function () {
@@ -97,6 +105,59 @@ module.exports = {
 
         await driver.wait(until.elementLocated(selector));
         return driver.findElement(selector);
-    }
+    },
 
+    performCheckEmailEmpty: async function () {
+        var selector = page.register.elements.checkEmailEmpty;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+    performCheckNameEmpty: async function () {
+        var selector = page.register.elements.checkNameEmpty;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+    performCheckTeleEmpty: async function () {
+        var selector = page.register.elements.checkTeleEmpty;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+    
+    performCheckPassEmpty: async function () {
+        var selector = page.register.elements.clickRegister;
+        await driver.wait(until.elementLocated(selector));
+        return driver.wait(until.elementLocated(selector)).isEnabled();
+    },
+
+    performCheckKonfEmpty: async function () {
+        var selector = page.register.elements.checkKonfEmpty;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+    performCheckAgreeEmpty: async function () {
+        var selector = page.register.elements.checkAgreeEmpty;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+
+    performCheckEmailFormat: async function () {
+        var selector = page.register.elements.checkEmailFormat;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector);
+    },
+
+    performCheckTeleFormat: async function () {
+        var selector = page.register.elements.checkTeleFormat;
+
+        await driver.wait(until.elementLocated(selector));
+        return driver.findElement(selector).getText().then(function(result) {
+            assert.equal('No. Handphone Harus Angka [10]', result);
+        });
+    },
 };

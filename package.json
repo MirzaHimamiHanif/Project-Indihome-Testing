@@ -22,7 +22,17 @@
     "test-login-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_valid.feature",
     "test-login-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/login_invalid.feature",
     "test-register-valid": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_valid.feature",
-    "test-register-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_invalid.feature"
+    "test-register-invalid": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_invalid.feature",
+    "test-register-email-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_email_empty.feature",
+    "test-register-name-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_name_empty.feature",
+    "test-register-tele-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_tele_empty.feature",
+    "test-register-pass-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_pass_empty.feature",
+    "test-register-konf-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_konf_empty.feature",
+    "test-register-agree-empty": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_agree_empty.feature",
+    "test-register-email-format": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_email_format.feature",
+    "test-register-tele-format": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_tele_format.feature",
+    "test-register-pass-format": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_pass_format.feature",
+    "test-register-passLen-format": "node ./node_modules/selenium-cucumber-js/index.js -f features/register_passLen_format.feature"
   },
   "author": "Bayusandya",
   "license": "Telkom University"
